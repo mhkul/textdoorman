@@ -16,6 +16,20 @@ Text Doorman is a spam filter, **not** a security product. It doesn't reliably c
 
 Campaign texts are scored on how they're written, not which party sent them. `tools/eval_fairness.py` checks this by swapping party references in each political text (Democrats ↔ Republicans, ActBlue ↔ WinRed, …) and comparing scores. The shipped model is trained with party-mirrored copies so both versions score the same (latest run: 97.3% caught as written vs 96.8% mirrored).
 
+## Install
+
+Download the APK from [Releases](https://github.com/mhkul/textdoorman/releases) and open it on your phone (Android 10 or newer). Android will ask you to allow installing apps from your browser or file manager. Then open Text Doorman, tap **Set up screening**, and turn on notification access.
+
+To track updates automatically, add this repository to [Obtainium](https://github.com/ImranR98/Obtainium).
+
+**Verify the download.** Official releases are signed with this certificate:
+
+```
+SHA-256: 2f:bc:e3:6a:63:fc:aa:26:95:a7:97:f5:66:6f:94:3b:59:56:a2:3a:61:18:1b:96:fd:7a:d6:26:fd:e9:09:46
+```
+
+Check it with `apksigner verify --print-certs textdoorman-*.apk`, or with an app like AppVerifier.
+
 ## How it works
 
 | Piece | File |
