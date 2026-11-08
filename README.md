@@ -2,8 +2,6 @@
 
 An Android app that silences spam texts (especially the political fundraising texts that arrive from a new number every day) while you keep using your normal texting app.
 
-Website: <https://textdoorman.com>
-
 ## What it does
 
 - Watches notifications from your texting app (Google Messages, Samsung Messages, or your default SMS app).
