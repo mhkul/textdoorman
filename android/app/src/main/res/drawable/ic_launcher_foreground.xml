@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shield with a chat bubble: "protects your texts". 108dp adaptive canvas, art inside the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,27 L77,35.5 L77,52 C77,66.5 67.5,77.5 54,82 C40.5,77.5 31,66.5 31,52 L31,35.5 Z" />
+    <path
+        android:fillColor="#1F6F6B"
+        android:pathData="M44,44 L64,44 C66.2,44 68,45.8 68,48 L68,57 C68,59.2 66.2,61 64,61 L53,61 L46.5,66.5 L46.5,61 L44,61 C41.8,61 40,59.2 40,57 L40,48 C40,45.8 41.8,44 44,44 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45.5,52.5 L48.5,49.5 L52,53 L59.5,45.5 L62.5,48.5 L52,59 Z" />
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#1F6F6B</color>
+
+    <!-- Window theme only; the UI itself is drawn by Compose (see ui/Theme.kt). -->
+    <style name="Theme.TextDoorman" parent="android:Theme.DeviceDefault.DayNight">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

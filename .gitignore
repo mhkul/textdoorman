@@ -1,0 +1,26 @@
+# Personal data: the developer's own texts and anything derived from them.
+data/
+results/
+android/app/src/debug/assets/screener_model.json
+
+# Signing secrets
+android/keystore.properties
+*.jks
+*.keystore
+
+# Build output and local tooling
+.venv/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.iml
+__pycache__/
+
+# Separate repos / local tooling
+site/
+.claude/
+
+# Private planning notes
+notes/
